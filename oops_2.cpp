@@ -13,13 +13,13 @@ public:
         name[len] = '\0';  // Ensure the string is null-terminated
     }
     
-    void display_details()//inline declaration
+    void display_details();
+};
+void student::display_details()//Outline declaration
     {
         cout << "Name: " << name << endl;
         cout << "Roll_number: " << Roll_number << endl;
     }
-};
-
 int main() {
     char name[20];
     strcpy(name, "Rishi");

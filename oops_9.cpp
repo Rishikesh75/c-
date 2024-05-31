@@ -31,7 +31,9 @@ class car {
             cout << "Copy constructor called" << endl;
         }
 
-        
+        ~car() {
+            cout << "Destructor is called" << endl;
+        }
 
         // Method to display car details
         void display() const {
